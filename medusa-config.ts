@@ -43,7 +43,10 @@ const modules = {
             region: process.env.DO_SPACE_REGION,
             bucket: process.env.DO_SPACE_BUCKET,
             endpoint: process.env.DO_SPACE_ENDPOINT
-          }
+          },
+          additional_client_config: {
+            forcePathStyle: true,
+          },
         }
       ]
     }
