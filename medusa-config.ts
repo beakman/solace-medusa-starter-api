@@ -42,10 +42,10 @@ const modules = {
             secret_access_key: process.env.DO_SPACE_SECRET_KEY,
             region: process.env.DO_SPACE_REGION,
             bucket: process.env.DO_SPACE_BUCKET,
-            endpoint: process.env.DO_SPACE_ENDPOINT
-          },
-          additional_client_config: {
-            forcePathStyle: true,
+            endpoint: process.env.DO_SPACE_ENDPOINT,
+            additional_client_config: {
+              forcePathStyle: true,
+            },
           },
         }
       ]
